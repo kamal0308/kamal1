@@ -1,4 +1,4 @@
 FROM maven:3.5-jdk-8-alpine as build
-WORKDIR /app
+WORKDIR /
 COPY --from=repo /maven-web-application  
 RUN mvn install
