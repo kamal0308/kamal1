@@ -18,25 +18,3 @@ CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
 
 
 
-docker pull couchbase:6.6.3
-
-
-
-
-version: "3"
-
-services:
-        mongo:
-    image: mongo
-    volumes:
-    - mongobkp:/data/db
-    container_name: mongo
-    networks:
-    - springappnetwork
-volumes:
-  mongobkp:
-    driver: local
-
-networks:
-  springappnetwork:
-    driver: bridge
