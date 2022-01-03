@@ -1,6 +1,6 @@
 FROM ubuntu:12.04
 
-MAINTAINER SKGAYAZ GAYAZSHEIK7@gmail.com
+MAINTAINER SKGAYAZ darling305327@gmail.com
 
 LABEL version="1.1.0" \
       app_name="Training registration application" \
