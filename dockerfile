@@ -1,3 +1,7 @@
+FROM ubuntu:12.04
+
+MAINTAINER SKGAYAZ GAYAZSHEIK7@gmail.com
+
 LABEL version="1.1.0" \
       app_name="Training registration application" \
 	  release_date="9-Sep-2018"
